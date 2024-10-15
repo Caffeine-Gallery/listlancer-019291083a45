@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#item-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+
+#add-item {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-item:hover {
+    background-color: #45a049;
+}
+
+#shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.shopping-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.shopping-item span {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+}
+
+.shopping-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #777;
+    transition: color 0.3s;
+}
+
+.shopping-item button:hover {
+    color: #333;
+}
+
+.shopping-item .complete-btn {
+    color: #4CAF50;
+}
+
+.shopping-item .delete-btn {
+    color: #f44336;
+}
