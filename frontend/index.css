@@ -35,7 +35,7 @@ h1 {
 #add-item {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #4CAF50;
+    background-color: #e53935;
     color: white;
     border: none;
     border-radius: 0 4px 4px 0;
@@ -44,7 +44,7 @@ h1 {
 }
 
 #add-item:hover {
-    background-color: #45a049;
+    background-color: #c62828;
 }
 
 #shopping-list {
@@ -85,9 +85,9 @@ h1 {
 }
 
 .shopping-item .complete-btn {
-    color: #4CAF50;
+    color: #e53935;
 }
 
 .shopping-item .delete-btn {
-    color: #f44336;
+    color: #e53935;
 }
